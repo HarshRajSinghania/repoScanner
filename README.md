@@ -12,7 +12,6 @@
 <a href = "https://github.com/tecnolgd/repoScanner/releases">
 <img src="https://img.shields.io/github/v/release/tecnolgd/repoScanner?include_prereleases&color=1a1a1a&style=flat-square" alt="Version"></a>
 <a href = "#documentation">
-<img src = "https://img.shields.io/badge/docs-available-1a1a1a?style=flat-square" alt = "Docs: Available"></a>
 <a href = "https://github.com/tecnolgd/libcvault"><img src = "https://img.shields.io/badge/submodule-libcvault-1a1a1a?style=flat-square" alt = "Submodule: libcvault"></a>
 
 </div>
@@ -20,8 +19,18 @@
 ---
 <p align = "center">repoScanner is a lightweight repository analysis tool for developers.</p>          
 
-> - Quickly understand your codebase structure, dependencies, and metrics with a single command.
-> - Built for developers with the intent of saving time and peace-of-mind
+Quickly understand your codebase structure, dependencies, and metrics with a single command. Built for developers with the intent of saving time and peace-of-mind.
+
+<hr>
+
+<div align = "center">
+
+  <a href = "#quick-run">Quick Run</a> •
+  <a href = "#benchmarks"> Benchmarks</a> •
+  <a href = "#documentation"> Documentation</a> •
+  <a href = "#support-this-project"> Support this project</a>
+</div>
+
 
 ## What It Does
 
@@ -98,7 +107,7 @@ The current development version is **0.3.0b10.dev26**, generated from the reposi
     > The code uses only Python standard libraries and should be compatible with Python 3.10+,
     > but has been officially tested on Python 3.12.
 
-## Quick Install
+## Quick Run
 
 Install directly from PyPI for end users:
 
@@ -218,21 +227,30 @@ Detects and maps **40+ extensions** to human-readable names, including:
 * **Scripting:** Python, Ruby, Lua, Shell, PowerShell and many more. 
 *(Unrecognized extensions fall back to their raw string format).*
 
+
 ## Documentation
 * [Architecture](assets/docs/architecture.md)
 * [Usage](assets/docs/usage.md)
 * [Testing](assets/docs/testing.md)
 * [Roadmap](assets/docs/roadmap.md)
 
-## [Contributing](CONTRIBUTING.md)
 
 ## Contributors
-
 A huge thanks to the developers contributing to repoScanner.
+
 - [@Ghraven](https://github.com/Ghraven)
 - [@AzarAI-TOP](https://github.com/AzarAI-TOP)
 - [@Benjamin Ayiovh](https://github.com/BenjaminAyivoh1)
 - [@faizan-7890](https://github.com/faizan-7890)
 
-## License   
+
+## Support This Project
+
+If repoScanner has positively impacted your workflow, consider:
+- Starring this repository
+- Forking the project
+- Sharing feedback and suggestions
+- [Contributing](CONTRIBUTING.md) to the codebase
+
+## License
 MIT
