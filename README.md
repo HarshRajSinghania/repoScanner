@@ -17,7 +17,7 @@
 </div>
 
 ---
-<p align = "center">repoScanner is a lightweight repository analysis tool for developers.</p>          
+<p align = "center">repoScanner is a lightweight repository analysis tool for developers</p>          
 
 Quickly understand your codebase structure, dependencies, and metrics with a single command. Built for developers with the intent of saving time and peace-of-mind.
 
